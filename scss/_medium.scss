@@ -1,1 +1,23 @@
 /* NAVIGATION STUFF GOES HERE  */
+body {
+    display: block;
+}
+
+#top #bar, #navLinks > a {
+    display: none;
+}
+
+nav {
+    height: auto;
+    border-bottom: 2px solid $greyColor;
+    ul {
+        display: flex;
+    }
+    li a {
+        border: none;
+    }
+    li a:hover {
+        background-color: #eee;
+    }
+    
+}
